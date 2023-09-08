@@ -12,7 +12,6 @@ const tasks = [
 
 const hideDoneTasks = false;
 
-
 function App() {
   return (
     <Container>

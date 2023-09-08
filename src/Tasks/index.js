@@ -16,7 +16,7 @@ const Tasks = ({ tasks, hideDoneTasks }) => (
                 </button>
             </li>
         ))}
-    </ul >
+    </ul>
 );
 
 export default Tasks;
