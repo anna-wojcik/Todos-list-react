@@ -3,7 +3,7 @@ import "./style.css";
 const Buttons = ({ tasks, hideDoneTasks }) => (
     <span className="buttons">
         {tasks.length > 0 && (
-            <React.Fragment>
+            <>
                 <button className="buttons__button">
                     {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
                 </button>
@@ -13,7 +13,7 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
                 >
                     Ukończ wszystkie
                 </button>
-            </React.Fragment>
+            </>
         )}
     </span>
 );
