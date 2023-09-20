@@ -23,6 +23,13 @@ function App() {
     }));
   };
 
+  const setAllDone = () => {
+    setTasks(tasks => tasks.map(task => ({
+      ...task,
+      done: true,
+    })));
+  };
+
   const removeTask = (id) => {
     setTasks(tasks => tasks.filter(task => task.id !== id));
   };
@@ -47,7 +54,9 @@ function App() {
           <Buttons
             tasks={tasks}
             hideDone={hideDone}
-            toggleHideDone={toggleHideDone} />
+            toggleHideDone={toggleHideDone} 
+            setAllDone={setAllDone}
+            />
         }
         body={
           <Tasks
