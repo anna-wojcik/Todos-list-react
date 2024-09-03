@@ -26,6 +26,8 @@ Newly added tasks are listed. If any task has been done, you can uncheck it by c
  
 ![your list of tasks(1)](https://github.com/anna-wojcik/List-of-tasks/assets/139044927/47878029-5d49-426c-8b27-4e0d1904358b)
 
+After refreshing the page or reopening the browser, previously added tasks will be saved and still displayed.
+
 ## Technologies Used
 - HTML 5
 - CSS 3
