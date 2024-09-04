@@ -1,11 +1,8 @@
 # Task List
 The subject of the project is a list of tasks. This page allows you to create a list of tasks that need to be done or have already been completed.
-<br>
-Here is a working live demo: https://anna-wojcik.github.io/todos-list-react/
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Table of Contents
+* [About](#about)
 * [Site](#site)
 * [Technologies Used](#technologies-used)
 * [Gif](#gif)
@@ -13,6 +10,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
 * [Author](#author)
+
+## About
+Here is a working live demo: https://anna-wojcik.github.io/todos-list-react/
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Site
 
