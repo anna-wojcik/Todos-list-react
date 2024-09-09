@@ -7,7 +7,7 @@ export const Container = styled.div`
     align-items: center;
     padding: 20px;
 
-    @media(max-width: 767px) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-template-columns: 1fr;
         padding: 0 20px 20px;
     }
@@ -16,16 +16,16 @@ export const Container = styled.div`
 export const Button = styled.button`
     background: none;
     border: none;
-    color: teal;
+    color: ${({ theme }) => theme.color.teal};
     transition: background 0.5s, 0.5s;
     cursor: pointer;
 
     &:hover {
-        color: hsl(180, 100%, 35%);
+        filter: brightness(120%);
     }
 
     &:disabled {
-        color: #ccc;
+        color: ${({ theme }) => theme.color.silver};
         cursor: not-allowed;
     }
 `;

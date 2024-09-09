@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const StyledSection = styled.section`
-    background: white;
+    background: ${({ theme }) => theme.color.white};
     margin: 10px 0;
 `;
 
@@ -11,14 +11,14 @@ export const Div = styled.div`
         grid-template-columns: 1fr auto auto;
         align-items: center;
 
-        @media(max-width: 767px) {
+        @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
             grid-template-columns: 1fr;
         }
     `}
     
-    ${({body}) => body && css`
+    ${({ body }) => body && css`
         padding: 20px;
-        border-top: 1px solid #ddd;
+        border-top: 1px solid ${({ theme }) => theme.color.alto};
         word-break: break-word;
     `}
 `;

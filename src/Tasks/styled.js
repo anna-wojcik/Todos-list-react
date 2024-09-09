@@ -5,7 +5,7 @@ export const List = styled.ul`
     padding: 0;
     margin: 0;
 
-    @media(max-width: 767px) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         margin: 0 -10px;
     }
 `;
@@ -15,10 +15,10 @@ export const Item = styled.li`
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
     align-items: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid ${({ theme }) => theme.color.alto};
     padding: 10px;
 
-    @media(max-width: 767px) {
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         padding: 10px 0;
         grid-gap: 5px;
     }
@@ -38,32 +38,32 @@ export const Button = styled.button`
     border: none;
     width: 30px;
     height: 30px;
-    color: white;
+    color: ${({ theme }) => theme.color.white};
     cursor: pointer;
 
     ${({ toggleDone }) => toggleDone && css`
-        background: green;
+        background: ${({ theme }) => theme.color.green};
         transition: background 0.5s;
 
         &:hover {
-            background: hsl(120, 100%, 30%);
+            filter: brightness(120%);
         }
 
         &:active {
-            background: hsl(120, 100%, 35%);
+            filter: brightness(140%);
         }
     `}
 
     ${({ remove }) => remove && css`
-        background: red;
+        background: ${({ theme }) => theme.color.red};
         transition: background 0.5s;
 
         &:hover {
-            background: hsl(0, 100%, 58%);
+            filter: brightness(90%);
         }
 
         &:active {
-            background: hsl(0, 100%, 65%);
+            filter: brightness(80%);
         }
     `}
 `;
