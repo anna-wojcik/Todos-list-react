@@ -29,14 +29,17 @@ Newly added tasks are listed. If any task has been done, you can uncheck it by c
 After refreshing the page or reopening the browser, previously added tasks will be saved and still displayed.
 
 ## Technologies Used
-- HTML 5
-- CSS 3
 - JavaScript ES6
 - React
+- HTML 5
+- CSS 3
+- Styled Components
+- Hooks (useState, useEffect, useRef)
+- Custom Hooks
+- Media Queries
 - Normalize CSS
 - BEM Convention
 - Grid
-- Media Queries
 
 ## Gif
 ![list of tasks(1)](https://github.com/anna-wojcik/List-of-tasks/assets/139044927/3a6fbedd-8275-4d64-baec-43652d3116cb)
