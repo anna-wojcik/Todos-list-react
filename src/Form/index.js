@@ -5,14 +5,15 @@ const Form = ({ addNewTask }) => {
     const [newTaskContent, setNewTaskContent] = useState("");
     const inputRef = useRef(null);
 
+    const focusInput = () => {
+        inputRef.current.focus();
+    };
+
     const onFormSubmit = (event) => {
         event.preventDefault();
         addNewTask(newTaskContent.trim());
         setNewTaskContent("");
-    };
-
-    const focusInput = () => {
-        inputRef.current.focus();
+        focusInput();
     };
 
     return (
@@ -24,7 +25,7 @@ const Form = ({ addNewTask }) => {
                 autoFocus
                 onChange={({ target }) => setNewTaskContent(target.value)}
             ></Input>
-            <Button onClick={focusInput}>Dodaj zadanie</Button>
+            <Button>Dodaj zadanie</Button>
         </StyledForm>
     );
 };
