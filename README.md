@@ -31,6 +31,7 @@ After refreshing the page or reopening the browser, previously added tasks will 
 ## Technologies Used
 - JavaScript ES6
 - React
+- Redux
 - HTML 5
 - CSS 3
 - Styled Components
