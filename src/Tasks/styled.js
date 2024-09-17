@@ -23,13 +23,13 @@ export const Item = styled.li`
         grid-gap: 5px;
     }
 
-    ${({ hidden }) => hidden && css`
+    ${({ $hidden }) => $hidden && css`
         display: none;
     `}
 `;
 
 export const Content = styled.span`
-    ${({ done }) => done && css`
+    ${({ $done }) => $done && css`
         text-decoration: line-through;
     `}
 `;
@@ -41,7 +41,7 @@ export const Button = styled.button`
     color: ${({ theme }) => theme.color.white};
     cursor: pointer;
 
-    ${({ toggleDone }) => toggleDone && css`
+    ${({ $toggleDone }) => $toggleDone && css`
         background: ${({ theme }) => theme.color.green};
         transition: background 0.5s;
 
@@ -54,7 +54,7 @@ export const Button = styled.button`
         }
     `}
 
-    ${({ remove }) => remove && css`
+    ${({ $remove }) => $remove && css`
         background: ${({ theme }) => theme.color.red};
         transition: background 0.5s;
 

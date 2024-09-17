@@ -6,7 +6,7 @@ export const StyledSection = styled.section`
 `;
 
 export const Div = styled.div`
-    ${({ headerArea }) => headerArea && css`
+    ${({ $headerArea }) => $headerArea && css`
         display: grid;
         grid-template-columns: 1fr auto auto;
         align-items: center;
@@ -16,7 +16,7 @@ export const Div = styled.div`
         }
     `}
     
-    ${({ body }) => body && css`
+    ${({ $body }) => $body && css`
         padding: 20px;
         border-top: 1px solid ${({ theme }) => theme.color.alto};
         word-break: break-word;
