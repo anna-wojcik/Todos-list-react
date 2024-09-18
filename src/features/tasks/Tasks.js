@@ -3,11 +3,11 @@ import TaskList from "./TaskList";
 import Buttons from "./Buttons";
 import Section from "../../common/Section";
 import Header from "../../common/Header";
-import Container from "../../common/Container";
+import { Main } from "../../common/Main/styled";
 
 function Tasks() {
   return (
-    <Container>
+    <Main>
       <Header
         title="Lista zadań"
       />
@@ -20,7 +20,7 @@ function Tasks() {
         extraHeaderContent={<Buttons />}
         body={<TaskList />}
       />
-    </Container>
+    </Main>
   );
 }
 
