@@ -5,7 +5,7 @@ export const StyledSection = styled.section`
     margin: 10px 0;
 `;
 
-export const Div = styled.div`
+export const Wrapper = styled.div`
     ${({ $headerArea }) => $headerArea && css`
         display: grid;
         grid-template-columns: 1fr auto auto;
@@ -23,7 +23,7 @@ export const Div = styled.div`
     `}
 `;
 
-export const Header2 = styled.h2`
+export const SubHeader = styled.h2`
     padding: 20px;
     margin: 0;
 `;
