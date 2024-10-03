@@ -21,7 +21,7 @@ In the first gap you can write the content of the task. Afterwards you can add t
 ![alt text](<todos-list-react task add.gif>)
 
 ### Downloading example tasks
-You can download example tasks by clicking on the button "Pobierz przykładowe zadania".
+You can download example tasks by clicking on the button "Pobierz przykładowe zadania". This is possible through an asynchronous shot in the Redux Saga.
 
 ![alt text](<todos-list-react downoload tasks.gif>)
 
@@ -45,12 +45,12 @@ You can open a new page with the information about the author  of the project by
 
 ![alt text](<todos-list-react author page.gif>)
 
-After refreshing the page or reopening the browser, previously added tasks will be saved and still displayed.
+After refreshing the page or reopening the browser, previously added tasks will be saved and still displayed. This is possible thanks to Redux Saga.
 
 ## Technologies Used
 - JavaScript ES6
 - React Router
-- Redux - Saga
+- Redux - Saga, Toolkit
 - Styled Components
 - Hooks (useState, useEffect, useRef, useParams, useLocation, useHistory)
 - Custom Hooks
