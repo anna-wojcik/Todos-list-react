@@ -8,7 +8,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Table of Contents
 * [Site](#site)
 * [Technologies Used](#technologies-used)
-* [Gif](#gif)
 * [Available Scripts](#available-scripts)
 * [Project Status](#project-status)
 * [Acknowledgements](#acknowledgements)
@@ -19,31 +18,48 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Adding new tasks
 In the first gap you can write the content of the task. Afterwards you can add this tasks by clicking in the button or by pressing "Enter" on your keyboard.
 
-![adding new task(1)](https://github.com/anna-wojcik/List-of-tasks/assets/139044927/00765f96-6038-4685-947b-6c35094a9530)
+![alt text](<todos-list-react task add.gif>)
+
+### Downloading example tasks
+You can download example tasks by clicking on the button "Pobierz przykładowe zadania".
+
+![alt text](<todos-list-react downoload tasks.gif>)
 
 ### Your list of tasks
 Newly added tasks are listed. If any task has been done, you can uncheck it by clicking on the green square. However, if you do not want the task to be on the list, you can delete it by clicking on the red square. Over the list of tasks there are two more buttons. The first of them is to hide completed tasks and to show them again. The second button makes all tasks completed.
- 
-![your list of tasks(1)](https://github.com/anna-wojcik/List-of-tasks/assets/139044927/47878029-5d49-426c-8b27-4e0d1904358b)
+
+![alt text](<todos-list-react 1.png>)
+
+### Filtering tasks
+You can filter tasks by their names.
+
+![alt text](<todos-list-react filtering tasks-1.gif>)
+
+### Task page
+You can open a new page with the task details by clicking on task content. 
+
+![alt text](<todos-list-react task page.gif>)
+
+### Author page
+You can open a new page with the information about the author  of the project by clicking on button "O autorze". 
+
+![alt text](<todos-list-react author page.gif>)
 
 After refreshing the page or reopening the browser, previously added tasks will be saved and still displayed.
 
 ## Technologies Used
 - JavaScript ES6
-- React
-- Redux
+- React Router
+- Redux - Saga
+- Styled Components
+- Hooks (useState, useEffect, useRef, useParams, useLocation, useHistory)
+- Custom Hooks
 - HTML 5
 - CSS 3
-- Styled Components
-- Hooks (useState, useEffect, useRef)
-- Custom Hooks
 - Media Queries
 - Normalize CSS
 - BEM Convention
 - Grid
-
-## Gif
-![list of tasks(1)](https://github.com/anna-wojcik/List-of-tasks/assets/139044927/3a6fbedd-8275-4d64-baec-43652d3116cb)
 
 ## Available Scripts
 
