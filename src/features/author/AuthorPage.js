@@ -15,8 +15,7 @@ export default () => (
                         Skłodowskiej-Curie w Lublinie. </p>
                     <h3>Umiejętności</h3>
                     <p>Potrafię programować w językach:
-                        <br /> - <b>JavaScript</b>
-                        <br /> - <b>React</b>
+                        <br /> - <b>JavaScript</b> (biblioteka <b>React</b>)
                         <br /> - <b>C</b>
                         <br /> - <b>C++</b>
                         <br /> - <b>Python</b>
