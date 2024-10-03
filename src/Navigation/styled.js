@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import styled from "styled-components";
 
-export const Navigation = styled.nav`
+export const StyledNavigation = styled.nav`
     position: absolute;
     top: 0;
     width: 100%;
