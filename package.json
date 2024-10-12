@@ -2,7 +2,7 @@
   "name": "todo-list-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anna-wojcik.github.io/todos-list-react/",
+  "homepage": "https://anna-wojcik.github.io/Todos-list-react/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
